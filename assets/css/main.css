@@ -32,7 +32,7 @@ body {
 }
 
 .form {
-  margin: 2.5rem 0 10.625rem;
+  margin: 1.5rem 0 8.625rem;
   input {
     outline: 0;
 
@@ -44,6 +44,11 @@ body {
     -moz-flex: 1 1 auto;
     flex: 1 1 auto;
   }
+}
+
+.bg-st-lt {
+  background: #fafafa;
+  min-height: 80vh;
 }
 
 .main {
@@ -85,6 +90,12 @@ p {
 
 .nav-link.active {
   color: #fff !important;
+}
+
+.card-parent {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: -8%;
 }
 
 /* Category Css */
@@ -150,6 +161,53 @@ p {
   }
   p {
     font-size: 0.6875rem;
+  }
+}
+
+.hor-crd {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+  .crd-body {
+    padding-left: 64px;
+    padding-right: 88px;
+  }
+  .fa {
+    font-size: 1.5rem;
+  }
+  .fa-car {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+  }
+  .fa-arrow-right {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+  }
+}
+
+/* article */
+
+.single-article {
+  background: #fff;
+  padding: 40px 20px 20px;
+  border: 1px solid #eee;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+  min-height: 85vh;
+
+  h1 {
+    font-size: 2.5rem;
+    color: #373737;
+    line-height: 1.5;
+  }
+  p {
+    font-size: 1.125rem;
+    color: rgb(0, 0, 0);
+    text-align: left;
   }
 }
 
